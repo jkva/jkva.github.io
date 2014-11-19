@@ -22,8 +22,8 @@ metaphors, explained the basics of Event Sourcing.
 He started by mentioning the de facto reading material on the subject: 
 [Implementing Domain Driven Design by Vaughn Vernon](https://vaughnvernon.co/?page_id=168) and
 [Domain Driven Design by Eric Evans](http://books.google.nl/books/about/Domain_driven_Design.html?id=7dlaMs0SECsC&redir_esc=y).
-After explaining the idea behind (The Law of Demeter)[http://en.wikipedia.org/wiki/Law_of_Demeter] and 
-(Aggregate Roots)[http://martinfowler.com/bliki/DDD_Aggregate.html] within 
+After explaining the idea behind [The Law of Demeter](http://en.wikipedia.org/wiki/Law_of_Demeter) and 
+[Aggregate Roots](http://martinfowler.com/bliki/DDD_Aggregate.html) within 
 your domain, he told a story about a morning run through the park.
 
 As he approached a tree, he noticed that that tree had lost numerous leaves the last time he passed it.
@@ -36,12 +36,12 @@ immutable reference point. Equality is decided by the identity of an entity, not
 
 So if the state of an entity is a sequence of states `S[]`, from `S0` to `SN`, where each state is the difference between
 the previous state and itself, we can record these changes as *events*. This answers the question stated by 
-(Theseus' Paradox)[http://en.wikipedia.org/wiki/Ship_of_Theseus] - Theseus' ship is defined by its identity, and
+[Theseus' Paradox](http://en.wikipedia.org/wiki/Ship_of_Theseus) - Theseus' ship is defined by its identity, and
 any changes to it are state mutations applied to it.
 
 Herman continued onto Functional Programming, known for not having mutable state (some hybrid languages excepted, but
 let's not get into that) and explained that immutable state processing through recorded events can be used
-together with a concept called *(CQRS)[http://en.wikipedia.org/wiki/Command%E2%80%93query_separation]* (coined by
+together with a concept called *[CQRS](http://en.wikipedia.org/wiki/Command%E2%80%93query_separation)* (coined by
 Greg John) which sums up as:
 
 * We define our aggregate roots
@@ -51,12 +51,12 @@ Greg John) which sums up as:
 * The Events are used to provide a separate *Read Side* which provides public state
 * Read Side is never used by the *Command Side* for verification purposes, only internal event state
 
-After speaking more on some differences between classic OO, (Emergent Behaviour)[http://en.wikipedia.org/wiki/Emergence]
+After speaking more on some differences between classic OO, [Emergent Behaviour](http://en.wikipedia.org/wiki/Emergence)
 and Functional Programming in PHP, it was question time.
 
-A short break was called in, and afterwards it was time for (Frits-Jan Bakker)[http://www.meetup.com/010PHP/members/45692792/]
-to elaborate on CQRS, especially the (Broadway)[http://labs.qandidate.com/blog/2014/08/26/broadway-our-cqrs-es-framework-open-sourced/]
-framework they use at (Qandidate)[http://www.qandidate.com].
+A short break was called in, and afterwards it was time for [Frits-Jan Bakker](http://www.meetup.com/010PHP/members/45692792/)
+to elaborate on CQRS, especially the [Broadway](http://labs.qandidate.com/blog/2014/08/26/broadway-our-cqrs-es-framework-open-sourced/)
+framework they use at [Qandidate](http://www.qandidate.com).
 
 Frits-Jan's talk (there were no slides since he was filling in for another speaker, but that did not deter) consisted of 
 a more in-depth explanation of CQRS, as well as a number of Best Practices on writing Event Sourced applications. Write 
