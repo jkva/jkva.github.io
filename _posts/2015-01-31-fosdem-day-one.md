@@ -17,4 +17,7 @@ Inside there is the booktable. Ahhh. The booktable! Always busy, but I still got
 and [Minecraft Plugins](https://pragprog.com/book/ahmine/learn-to-program-with-minecraft-plugins). The latter mostly for shits and giggles, as it
 is very much targeted towards the novice. But there's just nothing like the feeling of buying a book.
 
-And of course, the talks. I spent most of the first day switching between the Perl and Ada rooms.
+And of course, the talks. I spent most of the first day switching between the Perl and Ada rooms. Mostly in the Ada room, though.
+It really is a fascinating language. This year the room was definitely a lot more full, especially during the "Introduction to Ada" talk.
+
+The day was finished with a nice dinner organized by the Perl Community's very own Wendy van Dijk. It was great to see everyone!
