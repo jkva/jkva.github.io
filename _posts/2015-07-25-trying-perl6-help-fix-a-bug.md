@@ -24,7 +24,7 @@ However, after running `panda Task::Star`, the DBIish module would fail with the
     ------> ub status-is-ok($status) { $status ~~ 0.⏏.4 }
     build stage failed for DBIish: Failed building lib/DBDish/Pg.pm6
 
-Huh. Odd. To irc.freenode.org\#perl6 we go.
+Huh. Odd. To irc.freenode.org\#perl6 we go, as jkva.
 
     6:41:49 PM	jkva  RabidGravy: Gotcha :) I'm running Debian Squeeze, just finished installing rakudobrew, moarvm and panda. When running "panda install Task::Star" as per the directions, I eventually get:
     6:42:43 PM	jkva  the following build error - <pastie link>
@@ -86,7 +86,7 @@ Figuring DBIish wasn't properly mocking the mysql interface, I went back to IRC:
     7:58:31 PM	jkva  Shouldn't that be mocked?
     8:02:06 PM	jkva  Ah, I see on github it's on the agenda. Nvm.
 
-I was quite wrong here, actually. The DBIish author replied to me:
+I was quite wrong here, actually. The DBIish author (moritz) replied to me:
 
     8:30:00 PM	moritz  jkva: DBIish comes with the sqlite, mysql and postgres backends
     8:30:26 PM	moritz  jkva: and it tries to run all of its tests, but skip those tests that it can't run due to missing libs
