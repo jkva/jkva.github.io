@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Trying out Rakudo Perl6 and fixing a bug
+title: Trying out Rakudo Perl6 and help fix a bug
 category: open_source, programming, perl
 tags: perl, perl6, oss, irc, github
 ---
