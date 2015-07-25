@@ -12,7 +12,7 @@ Larry Wall is to be believed.
 After following the [linux installation instructions](http://rakudo.org/how-to-get-rakudo/) I managed to successfully 
 install rakudo, moarvm and panda on my vps running Debian 6 (yeah, I need to upgrade).
 
-However, after running `panda Task::Star`, the DBDish module would fail with the following error:
+However, after running `panda Task::Star`, the DBIish module would fail with the following error:
 
     ==> Building DBIish
     Compiling lib/DBDish.pm6 to mbc
