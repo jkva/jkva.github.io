@@ -42,7 +42,7 @@ Ok, so I was in luck - a recent release fixed this problem. I checked out the ta
     make install
     echo "export PATH=$(pwd)/install/bin/:\$PATH" >> ~/.bashrc
 
-Installed pandas manually:
+Installed panda manually:
 
     git clone https://github.com/tadzik/panda
     cd panda
