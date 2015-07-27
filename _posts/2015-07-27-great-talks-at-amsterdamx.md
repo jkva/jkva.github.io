@@ -8,7 +8,7 @@ tags: booking, intellij, powershell, perl, amsterdamx
 Having not attended an [AmsterdamX](http://amsterdamx.pm.org/) meetup for a while, I had heard that tonight's one featured
 a talk on Perl support for IntelliJ IDEA. I was not disappointed, what a great bunch of talks.
 
-## Eli Abramovitch - Breathing life into perl with an Intellij Plugin
+## Eli Abramovitch - Breathing life into perl with an IntelliJ Plugin
 
 Eli spoke enthusiastically about the recent development of Perl support in the IntelliJ IDE and showed a real live demo of
 syntax support, type inference, autocompletion, and more. I was especially impressed by the speed!
