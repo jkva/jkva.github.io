@@ -42,5 +42,5 @@ but in the shell.
 
 ### All good stuff
 
-All in all a very nice, well spent evening. I even raded a bottle of '12 homemade mead for webmind's homemade Madame Jeanette Chili!
+All in all a very nice, well spent evening. I even traded a bottle of '12 homemade mead for webmind's homemade Madame Jeanette hot chili sauce!
 Thanks to the speakers and attendees, and thanks to [Booking.com](http://www.booking.com) for hosting this AmsterdamX meetup.
