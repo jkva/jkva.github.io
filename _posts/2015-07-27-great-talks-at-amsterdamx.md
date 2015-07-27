@@ -5,7 +5,7 @@ category: meetup, perl
 tags: booking, intellij, powershell, perl, amsterdamx
 ---
 
-Having not attended an [AmsterdamX](http://amsterdamx.pm.org/) meetup for a while, I had heard that tonight's one featured
+Not having attended an [AmsterdamX](http://amsterdamx.pm.org/) meetup for a while, I had heard that tonight's meetup featured
 a talk on Perl support for IntelliJ IDEA. I was not disappointed, what a great bunch of talks.
 
 ## Eli Abramovitch - Breathing life into perl with an IntelliJ Plugin
